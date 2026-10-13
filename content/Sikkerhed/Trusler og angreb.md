@@ -1,6 +1,6 @@
 ---
 tags: [sikkerhed, trusler, angreb, replay, man-in-the-middle, virus, worm, dos, buffer-overflow, eksamen]
-kilder: ["Deitel 19.5", "Coulouris 11.1.1"]
+kilder: ["Deitel 19.5", "Coulouris 11.1.1", "OWASP Top 10:2025"]
 ---
 
 # Trusler og angreb
@@ -103,6 +103,8 @@ Februar 2000 lukkede DDoS Yahoo!, eBay, CNN og Amazon. DoS rører ikke data, men
 Et program modtager **mere input, end der er plads til**, og det overskydende skrives ind i nabobuffere. Et velkonstrueret overflow kan **overskrive returadressen på stakken**, så angriberens kode kører **med applikationens rettigheder**.
 
 **Forsvar:** strenge buffergrænser i applikationen, og **ikke-eksekverbare stack-segmenter** i OS'et. Forsvaret er reelt **hukommelsesbeskyttelse**: protection-mekanismerne fra memory management er også sikkerhedsmekanismer.
+
+OWASP tilføjer, at det bedste forsvar er et **memory-safe sprog** (Java, C#, Rust). Ellers kan man bruge ASLR, DEP og stack canaries *(OWASP X02)*. Angreb på webapplikationer (injection, broken access control osv.) står i [[OWASP Top 10]].
 
 ## System penetration
 

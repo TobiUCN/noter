@@ -1,6 +1,6 @@
 ---
 tags: [sikkerhed, autentificering, passwords, needham-schroeder, kerberos, nonce, single-sign-on, eksamen]
-kilder: ["Deitel 19.3, 19.13", "Coulouris 11.2.2, 11.6.1–11.6.2"]
+kilder: ["Deitel 19.3, 19.13", "Coulouris 11.2.2, 11.6.1–11.6.2", "OWASP Top 10:2025"]
 ---
 
 # Autentificering og Kerberos
@@ -50,6 +50,8 @@ Del af [[Sikkerhed]]. Autentificering besvarer **"hvem er du?"**. Hvad du så *m
 **Shadow password file** *(Deitel 19.13)*: password-filen **skal** være læsbar for alle, fordi fx `ls` skal oversætte user-ID → brugernavn. Derfor flyttes de krypterede passwords til en separat shadow-fil, som kun **root** kan læse. Et godt eksempel på **least privilege**: filen deles, så hver del kun er så tilgængelig som nødvendigt.
 
 **Password aging og dets bagside:** brugere vælger svage passwords, systemet forhindrer ofte skift i en uge, og brugere skifter mellem kun to. Flere bagsider af password-forsvar står i [[Forsvarsmekanismer#UNIX-sikkerhed|UNIX-casen]].
+
+> ⚠️ **Moderne praksis dropper password aging.** OWASP og NIST 800-63b anbefaler at tvinge skift **kun ved mistanke om brud**. Brug i stedet MFA, tjek passwords mod lister over lækkede passwords, og hash med Argon2/scrypt/PBKDF2 frem for UNIX' gamle salt-krypt *(OWASP A04, A07)*. Se [[OWASP Top 10#A07 Authentication Failures]].
 
 ## Biometri og smart cards
 

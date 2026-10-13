@@ -1,6 +1,6 @@
 ---
 tags: [sikkerhed, kryptografi, symmetrisk, asymmetrisk, rsa, aes, cbc, hybrid, steganografi, eksamen]
-kilder: ["Deitel 19.1–19.2, 19.8, 19.11", "Coulouris 11.2.1, 11.3, 11.5"]
+kilder: ["Deitel 19.1–19.2, 19.8, 19.11", "Coulouris 11.2.1, 11.3, 11.5", "OWASP Top 10:2025"]
 ---
 
 # Kryptografi
@@ -91,6 +91,8 @@ P[i] = D(K, C[i]) XOR C[i-1]
 ```
 - **Initialization vector (IV):** et forskelligt stykke plaintext forrest (fx et timestamp), så **samme besked** til to modtagere ikke giver samme ciphertext
 - **Kræver pålidelig transport:** mistes én blok, kan ingen efterfølgende dekrypteres
+
+> ⚠️ **CBC er forældet i praksis.** Coulouris præsenterer CBC som løsningen på ECB's mønsterproblem, men OWASP anbefaler i 2025 at **droppe CBC-ciphers** og bruge **authenticated encryption** (kryptering + integritet i ét, fx AES-GCM). IV'en må aldrig genbruges med samme nøgle *(OWASP A04)*. Se [[OWASP Top 10#A04 Cryptographic Failures]].
 
 ### Stream ciphers
 

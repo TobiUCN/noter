@@ -1,6 +1,6 @@
 ---
 tags: [sikkerhed, moc, eksamen]
-kilder: ["Deitel kap. 19", "Coulouris kap. 11"]
+kilder: ["Deitel kap. 19", "Coulouris kap. 11", "OWASP Top 10:2025"]
 ---
 
 # Sikkerhed
@@ -19,6 +19,7 @@ Indgangen til sikkerhedsemnet: grundbegreberne, de krav en sikker løsning skal 
 | [[Trusler og angreb]] | Hvad angriber man med? Replay, MITM, virus/worms, DoS, buffer overflow |
 | [[Forsvarsmekanismer]] | Firewalls, IDS, antivirus, patches, krypterede filsystemer, UNIX-casen |
 | [[Sikre protokoller - TLS, IPsec og WiFi]] | Hvordan samles byggestenene til sikre kanaler på hvert lag? |
+| [[OWASP Top 10]] | Hvilke fejl bygger **udviklere** selv ind i webapps? Access control, injection, supply chain, design, logging |
 
 ## Hvorfor overhovedet sikkerhed?
 
