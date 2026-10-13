@@ -1,3 +1,23 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+// Make Mermaid sequence diagrams readable in dark mode
+:root[saved-theme="dark"] svg[aria-roledescription="sequence"] {
+  .messageText,
+  .loopText,
+  .noteText,
+  .labelText {
+    fill: #d4d4d8 !important;
+  }
+
+  .messageLine0,
+  .messageLine1,
+  .actor-line {
+    stroke: #a1a1aa !important;
+  }
+
+  marker path {
+    fill: #a1a1aa !important;
+    stroke: #a1a1aa !important;
+  }
+}
