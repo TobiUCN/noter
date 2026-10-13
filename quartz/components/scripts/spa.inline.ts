@@ -70,6 +70,12 @@ async function _navigate(url: URL, isBack: boolean = false) {
   p = p || new DOMParser()
   const contents = await fetchCanonical(url)
     .then((res) => {
+      // follow server redirects (e.g. `/folder` -> `/folder/`) so relative links resolve correctly
+      if (res.url) {
+        const finalUrl = new URL(res.url)
+        finalUrl.hash = url.hash
+        url = finalUrl
+      }
       const contentType = res.headers.get("content-type")
       if (contentType?.startsWith("text/html")) {
         return res.text()
