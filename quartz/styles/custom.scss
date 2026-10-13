@@ -21,3 +21,22 @@
     stroke: #a1a1aa !important;
   }
 }
+
+// Make tables look more like Obsidian
+article table {
+  border-collapse: collapse;
+
+  th,
+  td {
+    border: 1px solid var(--lightgray);
+    padding: 0.35rem 0.7rem;
+    line-height: 1.5;
+    vertical-align: top;
+  }
+
+  // Keep wrapped inline code tidy
+  code {
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+}
