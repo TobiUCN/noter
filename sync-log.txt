@@ -814,3 +814,21 @@ To https://github.com/TobiUCN/noter.git
 error: failed to push some refs to 'https://github.com/TobiUCN/noter.git'
 An error occurred while pushing to remote origin.
 Check that you have push access to the remote repository.
+npm notice run @jackyzha0/quartz@5.0.0 npx
+npm notice run quartz sync
+
+ Quartz v5.0.0 
+
+Backing up your content
+Detected symlink, trying to dereference before committing
+[v5 5f4fd32] Quartz sync: Oct 14, 2026, 5:16 PM
+ 1 file changed, 20 insertions(+)
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+From https://github.com/TobiUCN/noter
+ * branch            v5         -> FETCH_HEAD
+Already up to date.
+Pushing your changes
+To https://github.com/TobiUCN/noter.git
+   80454e2..5f4fd32  v5 -> v5
+branch 'v5' set up to track 'origin/v5'.
+Done!
