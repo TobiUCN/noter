@@ -5157,3 +5157,21 @@ To https://github.com/TobiUCN/noter.git
    b7b3580..2b3e4af  v5 -> v5
 branch 'v5' set up to track 'origin/v5'.
 Done!
+npm notice run @jackyzha0/quartz@5.0.0 npx
+npm notice run quartz sync
+
+ Quartz v5.0.0 
+
+Backing up your content
+Detected symlink, trying to dereference before committing
+[v5 d320dd6] Quartz sync: Oct 19, 2026, 10:01 AM
+ 1 file changed, 18 insertions(+)
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+From https://github.com/TobiUCN/noter
+ * branch            v5         -> FETCH_HEAD
+Already up to date.
+Pushing your changes
+To https://github.com/TobiUCN/noter.git
+   2b3e4af..d320dd6  v5 -> v5
+branch 'v5' set up to track 'origin/v5'.
+Done!
