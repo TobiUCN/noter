@@ -5,7 +5,7 @@ kilder: ["Cohn kap. 6", "Kniberg: testing, sprint planning (kvalitet, DoD)", "Sc
 
 # Test og kvalitet
 
-Del af [[Agil udvikling]]. Hvordan detaljerne i en story bliver til tests, hvornår noget er "done", og hvordan test passer ind i sprinten. TDD, CI og testautomatisering på programmørniveau står i [[XP#Test-First Programming]].
+Del af [[Agil udvikling]]. Hvordan detaljerne i en story bliver til tests, hvornår noget er "done", og hvordan test passer ind i sprinten. TDD, CI og testautomatisering på programmørniveau står i [[XP#Test-First Programming]]. Den formelle, organisatoriske side (QA, standarder, reviews, metrikker) står i [[Kvalitetsstyring]].
 
 ## Kvalitet er ikke til forhandling
 

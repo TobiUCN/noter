@@ -1,6 +1,6 @@
 ---
 tags: [agil, systemudvikling, moc, eksamen]
-kilder: ["Scrum Guide 2020", "Kniberg: Scrum and XP from the Trenches (2. udg. 2015)", "Cohn: User Stories Applied", "Beck: XP Explained (2. udg.)", "Kniberg & Skarin: Kanban and Scrum (2010)"]
+kilder: ["Scrum Guide 2020", "Kniberg: Scrum and XP from the Trenches (2. udg. 2015)", "Cohn: User Stories Applied", "Beck: XP Explained (2. udg.)", "Kniberg & Skarin: Kanban and Scrum (2010)", "Sommerville: Software Engineering (10. udg.)"]
 ---
 
 # Agil udvikling
@@ -23,6 +23,8 @@ Indgangen til systemudviklingsemnet. Noterne er organiseret efter **emne**, og h
 | [[Kanban]] | Principper, WIP-limits, board-design, metrics og case study |
 | [[Scrum vs Kanban]] | Ligheder og forskelle punkt for punkt |
 | [[Skalering af Scrum]] | Flere teams, scrum-of-scrums, distribuerede teams |
+| [[Risikostyring]] | Projekt-/produkt-/forretningsrisici, risikoprocessen, strategier, risiko i agil |
+| [[Kvalitetsstyring]] | QA/QC, standarder og ISO 9001, reviews og inspektioner, agil QM, metrikker |
 
 ## Kilderne og deres vinkel
 
@@ -33,6 +35,7 @@ Indgangen til systemudviklingsemnet. Noterne er organiseret efter **emne**, og h
 | **Kniberg**, Trenches (2007 + kommentarer 2015) | Feltrapport: *sådan gjorde vi* | Hele Scrum-maskineriet i hverdagen. Scrum-sprog: *product owner*, *sprint* |
 | **Beck**, XP Explained | Teori og model | *Hvorfor* (værdier) og *hvad* (praksisser) |
 | **Kniberg & Skarin** (2010) | Sammenligning + case | Kanban vs. Scrum og en case fra technical operations |
+| **Sommerville**, Software Engineering (10. udg.) | Bred lærebog, plandrevet udgangspunkt | Projektledelse og kvalitetsstyring, og hvordan de tilpasses agil |
 
 > **Kniberg 2. udg. er en "director's cut":** originalteksten fra 2007 er uændret, og i 2015 har han tilføjet kommentarer, hvor han ofte **modsiger sig selv**. De er markeret med **🔄 2015** i noterne og er de mest eksamensrelevante, fordi de viser *hvorfor* en praksis blev droppet.
 
