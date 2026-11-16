@@ -29963,3 +29963,16 @@ To https://github.com/TobiUCN/noter.git
    fc1a2eb..7414413  v5 -> v5
 branch 'v5' set up to track 'origin/v5'.
 Done!
+npm notice run @jackyzha0/quartz@5.0.0 npx
+npm notice run quartz sync
+
+ Quartz v5.0.0 
+
+Backing up your content
+Detected symlink, trying to dereference before committing
+[v5 8d1f98a] Quartz sync: Nov 16, 2026, 3:31 PM
+ 1 file changed, 18 insertions(+)
+Pulling updates from your repository. You may need to resolve some `git` conflicts if you've made changes to components or plugins.
+fatal: unable to access 'https://github.com/TobiUCN/noter.git/': Could not resolve host: github.com
+An error occurred while pulling updates from your repository.
+Check your network connection and git credentials.
